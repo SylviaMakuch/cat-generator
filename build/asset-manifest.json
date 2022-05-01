@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cat-generator/static/css/main.8a685450.css",
+    "main.js": "/cat-generator/static/js/main.dfbdaf20.js",
+    "index.html": "/cat-generator/index.html",
+    "main.8a685450.css.map": "/cat-generator/static/css/main.8a685450.css.map",
+    "main.dfbdaf20.js.map": "/cat-generator/static/js/main.dfbdaf20.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a685450.css",
+    "static/js/main.dfbdaf20.js"
+  ]
+}
