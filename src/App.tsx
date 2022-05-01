@@ -28,7 +28,7 @@ const H1 = styled.h1`
   text-align: center;
   margin: 2em;
   @media (max-height: 740px) {
-    margin: m;
+    margin: 1em;
   }
 `;
 
