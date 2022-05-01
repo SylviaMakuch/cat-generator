@@ -50,14 +50,6 @@ const Button = styled.button`
 }
 `;
 
-const H1 = styled.h1`
-    font-weight: 700;
-    font-size: 2.5rem;
-    line-height: 3.25rem;
-    font-family: "Montserrat", sans-serif;
-    color: #fff;
-`;
-
 export default function CardComponent() {
     const [cards, setCards] = useState();
     const [isClicked, setIsClicked] = useState(false);
@@ -75,7 +67,6 @@ export default function CardComponent() {
         })
             .then(response => {
                 response.json().then(data => {
-                    setCards(data);
                     setCards(data[0].url);
                     setIsLoading(true);
                 })
