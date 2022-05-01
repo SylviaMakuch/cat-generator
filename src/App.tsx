@@ -14,7 +14,7 @@ const PageContainter = styled.div`
   background-image: 
         radial-gradient(at 47% 33%, hsl(210.00, 0%, 0%) 0, transparent 59%), 
         radial-gradient(at 82% 65%,hsl(321.08, 100%, 36%), transparent 55%);
-  @media (max-height: 600px) {
+  @media (max-height: 740px) {
     height: auto;
   }
 `;
