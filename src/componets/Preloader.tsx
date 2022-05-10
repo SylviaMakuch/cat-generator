@@ -12,6 +12,11 @@ const Loader = styled.div`
   height: 320px;
   border-radius: 20px;
 
+  @media (max-height: 740px) {
+    width: 230px;
+    height: 230px;
+  }
+
   &:before {
     content: '';
     display: block;

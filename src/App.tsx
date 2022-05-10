@@ -9,6 +9,7 @@ const PageContainter = styled.div`
   margin: 0;
   justify-content: space-evenly;
   align-items: center;
+  height: 100vh;
 `;
 
 const H1 = styled.h1`
