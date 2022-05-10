@@ -7,7 +7,7 @@ const PageContainter = styled.div`
   display: flex;
   flex-wrap: wrap;
   margin: 0;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 `;
 
