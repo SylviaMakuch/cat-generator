@@ -22,7 +22,7 @@ const Card = styled.div`
   &:hover{
     transform: translateY(-20px)
     }
-    @media (max-width: 740px) {
+    @media (max-height: 740px) {
         height: 350px;
     }
 `;
@@ -33,7 +33,7 @@ const Image = styled.img`
     border-radius: 8%;
     @media (max-height: 740px) {
     width: 230px;
-    height: 200px;
+    height: 230px;
   }
 `;
 
