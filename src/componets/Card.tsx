@@ -22,12 +22,19 @@ const Card = styled.div`
   &:hover{
     transform: translateY(-20px)
     }
+    @media (max-width: 740px) {
+        height: 350px;
+    }
 `;
 
 const Image = styled.img`
     width: 300px;
     height: 320px;
     border-radius: 8%;
+    @media (max-height: 740px) {
+    width: 230px;
+    height: 200px;
+  }
 `;
 
 const Button = styled.button`
@@ -48,6 +55,9 @@ const Button = styled.button`
     background-position: right center; /* change the direction of the change here */
     background-color: rgba(255,255,255,0.2);
 }
+@media (max-height: 740px) {
+    padding: 18px 32px;
+  }
 `;
 
 export default function CardComponent() {
