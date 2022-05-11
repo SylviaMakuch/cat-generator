@@ -29,7 +29,7 @@ const H1 = styled.h1`
 function App() {
   return (
     <PageContainter>
-      <H1> Random Cat Genorator </H1>
+      <H1> Random Cat Generator </H1>
       <CardComponent />
     </PageContainter>
   );
